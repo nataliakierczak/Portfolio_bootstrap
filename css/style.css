@@ -1,0 +1,46 @@
+.header {
+    background-image: url('../img/prague.jpg');
+    background-position: center top;
+    }
+    h1, h2, h3 {
+        color:ghostwhite;
+ font-family: 'Montserrat', sans-serif;
+     }
+     .fontgrey {
+         color:grey;
+     }
+     .featurette {
+           background-color: #CCC3BB;
+           padding:4%;
+     }
+    
+    .description {
+        height:100px;
+        background-color: ivory;
+        margin-bottom: 2%;
+    }
+    p, li {
+        font-family: 'Droid Serif', serif;
+    }
+    .portfolio {
+        background-color:#CCCC3BB;
+    }
+    #services{
+          background-color: ivory;
+    }
+    .portfolio, footer {
+        background-color:#CCC3BB;
+    }
+    .container {
+        text-align:center;
+    }
+    .cvphoto {
+        border-radius: 50%;
+        height:25%;
+        width:25%;
+        padding:3%;
+    }
+    #aboutme {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
