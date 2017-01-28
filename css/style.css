@@ -6,6 +6,13 @@
         color:ghostwhite;
  font-family: 'Montserrat', sans-serif;
      }
+
+    h2 {
+        font-size:50px;
+    }
+    h3 {
+        font-size:40px;
+    }
      .fontgrey {
          color:grey;
      }
@@ -21,7 +28,16 @@
     }
     p, li {
         font-family: 'Droid Serif', serif;
+        text-align: left;
+        font-size: 1.5em;
     }
+    .fa-li.fa.fa-check-square {
+        font-size: 1.5em;
+    }
+.icons {
+    font-size:2.5em;
+    
+}
     .portfolio {
         background-color:#CCCC3BB;
     }
