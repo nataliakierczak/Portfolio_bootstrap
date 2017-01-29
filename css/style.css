@@ -1,9 +1,9 @@
-body, {
+body {
     font-family: 'Roboto', sans-serif;
 }
 
 .header {
-    background-image: url('../img/prague.jpg');
+    background-image: url('../img/my-pic.jpg');
     background-position: center top;
 }
 
@@ -37,10 +37,11 @@ p, li {
 
 .fa-li.fa.fa-check-square {
     font-size: 1.5em;
+    margin-left:0.5em;
 }
 
 .btn.btn-dark.btn-lg {
-    margin: 0.7em;
+    margin-top: 0.8em;
 }
 
 .icons {
@@ -76,7 +77,8 @@ img {
 }
 
 #aboutme {
-    text-align: justify;
+    text-align: center;
+    padding:1em;
 }
 
 .cvphoto {
@@ -89,6 +91,7 @@ img {
 
 .text-muted {
     text-align: center;
+    font-size:0.9em;
 }
 
 .form-group {
