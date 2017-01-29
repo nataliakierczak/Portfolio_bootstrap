@@ -20,103 +20,174 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&amp;subset=latin-ext"
+          rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-     <!-- Icons -->
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 </head>
 
 <body>
 
- 
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
-            </li>
-            <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick=$("#menu-close").click();>Recent projects</a>
-            </li>
-            <li>
-                <a href="#services" onclick=$("#menu-close").click();>Skills</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-            </li>
-        </ul>
-    </nav>
 
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Natalia Kierczak</h1>
-            <h3>Web developer based in Prague</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+<!--<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+            <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+        </li>
+        <li>
+            <a href="#top" onclick=$("#menu-close").click();>Home</a>
+        </li>
+        <li>
+            <a href="#about" onclick=$("#menu-close").click();>Recent projects</a>
+        </li>
+        <li>
+            <a href="#services" onclick=$("#menu-close").click();>Skills</a>
+        </li>
+        <li>
+            <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+        </li>
+    </ul>
+</nav>-->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">Home</a>
         </div>
-    </header>
 
-
-<div class="container background">
-            <div class="row">
-                    <h2 class="fontgrey">My recent projects</h2></div>
-
- <hr class="featurette-divider">
- 
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h3 class="featurette-heading">Jelen v lavoru</h3>
-            <p class="lead"><ul class="fa-ul">
-            <li><i class="fa-li fa fa-check-square"></i><strong>Client: </strong>Prague-based non-govermental organisation</li>
-            <li><i class="fa-li fa fa-check-square"></i><strong>Date: </strong>March 2017</li>
-            <li><i class="fa-li fa fa-check-square"></i><strong>Result: </strong>website presenting NGO's work and how to get involved</li>
-        </ul>
-            <div class="icons"><i class="fa fa-html5"></i><i class="fa fa-css3"></i></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a class="page-scroll" href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#projects">Recent projects</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">Skills</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" <img src="http://placehold.it/400x200">
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Header -->
+<header id="top" class="header">
+    <div class="text-vertical-center">
+        <h1>Natalia Kierczak</h1>
+        <h3>Web developer based in Prague</h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+    </div>
+</header>
+
+<section id="projects">
+    <div class="container background">
+        <div class="row">
+            <h2 class="fontgrey">My recent projects</h2></div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h3 class="featurette-heading">Jelen v lavoru</h3>
+                <div class="description">
+                    <p class="lead">
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check-square"></i><strong>Client: </strong>Prague-based
+                            non-govermental organisation
+                        </li>
+                        <li><i class="fa-li fa fa-check-square"></i><strong>Date: </strong>May 2017</li>
+                        <li><i class="fa-li fa fa-check-square"></i><strong>Result: </strong>website presenting NGO's
+                            work and how to get involved
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive center-block" <img src="img/project.png">
+                <a href="#about" class="btn btn-dark btn-lg">Visit the website</a>
+            </div>
         </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 col-md-push-5">
+                <h3 class="featurette-heading">Jan Vokrouhlecký</h3>
+                <div class="description">
+                    <p class="lead">
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check-square"></i><strong>Client: </strong>Prague-based accountant
+                        </li>
+                        <li><i class="fa-li fa fa-check-square"></i><strong>Date: </strong>April 2017</li>
+                        <li><i class="fa-li fa fa-check-square"></i><strong>Result: </strong>well-arranged offer of
+                            accouting services
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+                <img class="featurette-image img-responsive center-block" <img src="img/project2.png">
+                <a href="#about" class="btn btn-dark btn-lg">Visit the website</a>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h3 class="featurette-heading">Subculture archive</h3>
+                <div class="description">
+                    <p class="lead">
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check-square"></i><strong>Client: </strong>History Department of the
+                            Charles University
+                        </li>
+                        <li><i class="fa-li fa fa-check-square"></i><strong>Date: </strong>March 2017</li>
+                        <li><i class="fa-li fa fa-check-square"></i><strong>Result: </strong>interactive archive of
+                            research materials
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive center-block" <img src="img/project3.png">
+                <a href="#about" class="btn btn-dark btn-lg">Visit the website</a>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
     </div>
 
-    <hr class="featurette-divider">
 
-    <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-            <h3 class="featurette-heading">Jan Vokrouhlecký</h3>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-              <img class="featurette-image img-responsive center-block" <img src="http://placehold.it/400x200">
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h3 class="featurette-heading">Project C</h3>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block"     <img class="featurette-image img-responsive center-block" <img src="http://placehold.it/400x200">
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-</div>
-
- 
     <!-- Skills-->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="services" class="services bg-primary">
@@ -129,26 +200,43 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                               <i class="devicon-html5-plain-wordmark colored"></i>
+                               <i class="fa fa-thumbs-up fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong class="fontgrey">HTML 5</strong>
+                                    <strong class="fontgrey">Recent technologies</strong>
                                 </h4>
-                                <p class="fontgrey">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="skill">
+                                    <p>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-check-square"></i>Bootstrap</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>JavaScript</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>CSS3</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>HTML5</li>
+                                    </ul>
+                                    </p>
+                                </div>
                                 <a href="#" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                            <i class="devicon-css3-plain-wordmark colored"></i>
+                            <i class="fa fa-mobile fa-stack-1x text-primary"></i>
 
                             </span>
                                 <h4>
                                     <strong class="fontgrey">Responsive design</strong>
-                                   
                                 </h4>
-                                <p class="fontgrey"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="skill">
+                                    <p>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-check-square"></i>Suitable for all devices</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Designed for all screens</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Mobile and tablet friendly</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Winning you audience</li>
+                                    </ul>
+                                    </p>
+                                </div>
                                 <a href="#" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
@@ -156,12 +244,21 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                                <i class="fa fa-users fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong class="fontgrey">Service Name</strong>
+                                    <strong class="fontgrey">User Experience</strong>
                                 </h4>
-                                <p class="fontgrey">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="skill">
+                                    <p>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-check-square"></i>Efficient and effective</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Clear design</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>User-friendly</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Accessible for all users</li>
+                                    </ul>
+                                    </p>
+                                </div>
                                 <a href="#" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
@@ -172,9 +269,18 @@
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong class="fontgrey">Service Name</strong>
+                                    <strong class="fontgrey">Security</strong>
                                 </h4>
-                                <p class="fontgrey">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="skill">
+                                    <p>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-check-square"></i>Regular security updates</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Secure webhost</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>System updates</li>
+                                        <li><i class="fa-li fa fa-check-square"></i>Consultations</li>
+                                    </ul>
+                                    </p>
+                                </div>
                                 <a href="#" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
@@ -188,46 +294,55 @@
         <!-- /.container -->
     </section>
 
-    
+
     <!-- Footer -->
-    <footer>
+    <footer id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                     <div class="row">
-                          <h2>Contact</h2>
-                            <div class="row">
-                         <div class="col-lg-6 text-center">
-                              <h3>About me</h3>
-                              <img class="cvphoto" src="img/cv photo.jpg" alt="">
-                            <p id= "aboutme"> I am a passionate web developed based in Prague.<br> I am available for freelance work - please contact me if you are thinking of a new project and I will get back to you shortly.     </p></div>
-                             
-                             <div class="col-lg-6 text-center">
-                     <h3>Contact form</h3>
-                     <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Your name</label>
-    <input type="string" class="form-control" id="exampleTextarea" placeholder="Enter your name">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-  </div>
-  
-  <div class="form-group">
-    <label for="exampleTextarea">Your message</label>
-    <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Enter your message"></textarea>
-  </div>
-  
-  <fieldset class="form-group">
-   
+                    <div class="row">
+                        <h2>Contact</h2>
+                        <div class="row">
+                            <div class="col-lg-6 text-center">
+                                <h3>About me</h3>
+                                <img class="cvphoto" src="img/cv photo.jpg" alt="">
+                                <p id="aboutme"> I am a passionate web developed based in Prague.<br> I am <strong>available
+                                    for freelance work</strong> - please contact me if you are thinking of a new project
+                                    and I will get back to you shortly. </p></div>
 
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form></div></div></div></div></div>
-                   
-                   <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
+                            <div class="col-lg-6 text-center">
+                                <h3>Contact form</h3>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Your name</label>
+                                        <input type="string" class="form-control" id="exampleTextarea"
+                                               placeholder="Enter your name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                               aria-describedby="emailHelp" placeholder="Enter email">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleTextarea">Your message</label>
+                                        <textarea class="form-control" id="exampleTextarea" rows="3"
+                                                  placeholder="Enter your message"></textarea>
+                                    </div>
+
+                                    <fieldset class="form-group">
+
+
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Natalia Kierczak 2017</p>
                 </div>
@@ -244,66 +359,66 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
+        // Closes the sidebar menu
+        $("#menu-close").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+        // Scrolls to the selected menu item on the page
+        $(function () {
+            $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+        //#to-top button appears after scrolling
+        var fixed = false;
+        $(document).scroll(function () {
+            if ($(this).scrollTop() > 250) {
+                if (!fixed) {
+                    fixed = true;
+                    // $('#to-top').css({position:'fixed', display:'block'});
+                    $('#to-top').show("slow", function () {
+                        $('#to-top').css({
+                            position: 'fixed',
+                            display: 'block'
+                        });
+                    });
+                }
+            } else {
+                if (fixed) {
+                    fixed = false;
+                    $('#to-top').hide("slow", function () {
+                        $('#to-top').css({
+                            display: 'none'
+                        });
+                    });
                 }
             }
         });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
+        // Disable Google Maps scrolling
+        // See http://stackoverflow.com/a/25904582/1607849
+        // Disable scroll zooming and bind back the click event
+        var onMapMouseleaveHandler = function (event) {
+            var that = $(this);
+            that.on('click', onMapClickHandler);
+            that.off('mouseleave', onMapMouseleaveHandler);
+            that.find('iframe').css("pointer-events", "none");
         }
-    });
-    // Disable Google Maps scrolling
-    // See http://stackoverflow.com/a/25904582/1607849
-    // Disable scroll zooming and bind back the click event
-    var onMapMouseleaveHandler = function(event) {
-        var that = $(this);
-        that.on('click', onMapClickHandler);
-        that.off('mouseleave', onMapMouseleaveHandler);
-        that.find('iframe').css("pointer-events", "none");
-    }
-    var onMapClickHandler = function(event) {
+        var onMapClickHandler = function (event) {
             var that = $(this);
             // Disable the click handler until the user leaves the map area
             that.off('click', onMapClickHandler);
@@ -313,7 +428,7 @@
             that.on('mouseleave', onMapMouseleaveHandler);
         }
         // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
+        $('.map').on('click', onMapClickHandler);
     </script>
 
 </body>

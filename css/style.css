@@ -1,62 +1,106 @@
+body, {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     background-image: url('../img/prague.jpg');
     background-position: center top;
-    }
-    h1, h2, h3 {
-        color:ghostwhite;
- font-family: 'Montserrat', sans-serif;
-     }
-
-    h2 {
-        font-size:50px;
-    }
-    h3 {
-        font-size:40px;
-    }
-     .fontgrey {
-         color:grey;
-     }
-     .featurette {
-           background-color: #CCC3BB;
-           padding:4%;
-     }
-    
-    .description {
-        height:100px;
-        background-color: ivory;
-        margin-bottom: 2%;
-    }
-    p, li {
-        font-family: 'Droid Serif', serif;
-        text-align: left;
-        font-size: 1.5em;
-    }
-    .fa-li.fa.fa-check-square {
-        font-size: 1.5em;
-    }
-.icons {
-    font-size:2.5em;
-    
 }
-    .portfolio {
-        background-color:#CCCC3BB;
-    }
-    #services{
-          background-color: ivory;
-    }
-    .portfolio, footer {
-        background-color:#CCC3BB;
-    }
-    .container {
-        text-align:center;
-    }
-    .cvphoto {
-        border-radius: 50%;
-        height:25%;
-        width:25%;
-        padding:3%;
-    }
-    #aboutme {
-        font-family: 'Montserrat', sans-serif;
-    }
-    
+
+h1, h2, h3, h4 {
+    color: ghostwhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+.fontgrey {
+    color: grey;
+}
+
+.featurette {
+    background-color: #CCC3BB;
+    padding: 4%;
+}
+
+p, li {
+    text-align: left;
+    font-size: 1.5em;
+    color: grey;
+}
+
+.fa-li.fa.fa-check-square {
+    font-size: 1.5em;
+}
+
+.btn.btn-dark.btn-lg {
+    margin: 0.7em;
+}
+
+.icons {
+    font-size: 2.5em;
+}
+
+.description {
+    margin: 1em;
+}
+
+.skill {
+    font-size: 0.8em;
+}
+
+img {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+#services {
+    background-color: ivory;
+}
+
+.portfolio, footer {
+    background-color: #CCC3BB;
+}
+
+.fa-thumbs-up, .fa-users, .fa-mobile, .fa-shield {
+    color: #428bca;
+}
+
+.container {
+    text-align: center;
+}
+
+#aboutme {
+    text-align: justify;
+}
+
+.cvphoto {
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+    padding: 3%;
+    box-shadow: none;
+}
+
+.text-muted {
+    text-align: center;
+}
+
+.form-group {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    background-color: #428bca;
+    border-radius: 0%;
+}
+
+.btn.btn-light {
+    color: white;
+}
