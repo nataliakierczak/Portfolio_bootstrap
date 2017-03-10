@@ -60,18 +60,13 @@ img {
     box-shadow: 5px 5px 5px 5px #888888;
 }
 
-#services {
+#skills {
     background-color: ivory;
 }
 
 .portfolio, footer {
     background-color: #CCC3BB;
 }
-
-.fa-thumbs-up, .fa-users, .fa-mobile, .fa-shield {
-    color: #428bca;
-}
-
 .container {
     text-align: center;
 }
