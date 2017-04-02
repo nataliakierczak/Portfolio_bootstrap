@@ -9,8 +9,8 @@ require 'email.php';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Natalia Kierczak's web development portfolio">
+    <meta name="author" content="Natalia Kierczak-nataliak">
 
     <title>Natalia Kierczak's portfolio</title>
 
@@ -88,7 +88,6 @@ require 'email.php';
                 <h3 class="featurette-heading">Jan Vokrouhlecký</h3>
                 <h4>Design & code</h4>
                 <div class="description">
-                    <p class="lead"></p>
                     <ul class="fa-ul">
                         <li><i class="fa-li fa fa-check-square"></i><strong>Client: </strong>Prague-based accountant
                         </li>
@@ -115,7 +114,6 @@ require 'email.php';
                 <h3 class="featurette-heading">Sportemu</h3>
                 <h4>Code for selected pages</h4>
                 <div class="description">
-                    <p class="lead">
                     <ul class="fa-ul">
                         <li><i class="fa-li fa fa-check-square"></i><strong>Client: </strong>Start-up project
                         </li>
@@ -139,11 +137,10 @@ require 'email.php';
 </section>
 
 <!-- Skills-->
-<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
 <section id="skills" class="services bg-primary">
     <div class="container">
         <div class="row">
-            <h2 class="fontgrey ">My skills</h2>
+            <h2 class="fontgrey">My skills</h2>
             <hr class="featurette-divider">
             <div class="row">
                 <div class="col-md-4 col-sm-6">
@@ -155,36 +152,33 @@ require 'email.php';
                             <strong class="fontgrey">Recent technologies</strong>
                         </h4>
                         <div class="skill">
-
                             <ul class="fa-ul">
                                 <li><i class="fa-li fa fa-check-square"></i>HTML5 and CSS3</li>
                                 <li><i class="fa-li fa fa-check-square "></i>Bootstrap</li>
                                 <li><i class="fa-li fa fa-check-square"></i>JavaScript</li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6">
                     <div class="service-item">
                                 <span class="fa-stack fa-4x">
                             <i class="fa fa-mobile fa-stack-1x shake text-primary"></i>
-
                             </span>
                         <h4>
                             <strong class="fontgrey">Responsive design</strong>
                         </h4>
                         <div class="skill">
-
                             <ul class="fa-ul">
                                 <li><i class="fa-li fa fa-check-square"></i>Suitable for all devices</li>
                                 <li><i class="fa-li fa fa-check-square"></i>Mobile and tablet friendly</li>
                                 <li><i class="fa-li fa fa-check-square"></i>Winning you audience</li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6">
                     <div class="service-item">
                                 <span class="fa-stack fa-4x">
@@ -194,13 +188,11 @@ require 'email.php';
                             <strong class="fontgrey">User Experience</strong>
                         </h4>
                         <div class="skill">
-
                             <ul class="fa-ul">
                                 <li><i class="fa-li fa fa-check-square"></i>Efficient and effective</li>
                                 <li><i class="fa-li fa fa-check-square"></i>User-friendly</li>
                                 <li><i class="fa-li fa fa-check-square"></i>Accessible for all users</li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
@@ -258,7 +250,6 @@ require 'email.php';
                                 </div>
 
                             </form>
-
                         </div>
                     </div>
                 </div>
@@ -274,6 +265,7 @@ require 'email.php';
     </div>
     <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
 </footer>
+
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
@@ -353,5 +345,6 @@ require 'email.php';
     ga('send', 'pageview');
 
 </script>
+
 </body>
 </html>
